@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        @media (max-width: 767px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            th, td {
+                display: inline-block;
+                min-width: 100px;
+            }
+
+            th:first-child, td:first-child {
+                min-width: 150px;
+            }
+        }
+    </style>
+    <title>Work Schedule</title>
+</head>
+<body>
+
+    <h2>Prep</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Worker</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+                <th>Total Hours</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfonso</td>
+                <td>11:00 - 6:00 </td>
+                <td></td>
+                <td>11:00 - 6:00 </td>
+                <td></td>
+                <td>10:00 - 5:00</td>
+                <td></td>
+                <td></td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td></td>
+                <td>11:00 - 6:00</td>
+                <td></td>
+                <td>11:00 - 6:00</td>
+                <td></td>
+                <td></td>
+                <td>11:00 - 6:00</td>
+                <td>21</td>
+            </tr>
+            <!-- You can continue adding more rows as needed -->
+        </tbody>
+    </table>
+
+    <h2>Pizza</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Worker</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+                <th>Total Hours</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfonso</td>
+                <td> </td>
+                <td>10:00 - 11:00 PM</td>
+                <td></td>
+                <td>10:00 - 11:00 PM</td>
+                <td></td>
+                <td>6:30 - 12:00</td>
+                <td>10:00 - 11:00 PM</td>
+                <td>38.5</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>10:00 - 11:00 PM</td>
+                <td></td>
+                <td>10:00 - 11:00 PM</td>
+                <td></td>
+                <td>10:00 - 5:00</td>
+                <td>6:30 - 12:00</td>
+                <td></td>
+                <td>34.5</td>
+            </tr>
+            <!-- You can continue adding more rows as needed -->
+        </tbody>
+    </table>
+
+</body>
+</html>
